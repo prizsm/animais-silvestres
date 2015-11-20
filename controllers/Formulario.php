@@ -20,7 +20,7 @@ class Formulario extends CI_Controller {
 		$m = $this->model;
 		$contato = $m->searchAll();
 		
-		$data['contato'] = $contato; //OBS: O nome deve ser o mesmo que da view e do controller.
+		$data['contato'] = $contato; 
 		$this->load->view('lista',$data);
 	}
 	
