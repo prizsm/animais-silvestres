@@ -4,7 +4,7 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Dra. Mariana Santana - Médica Veterinária de Animais Silvestres</title>
+<title>Administração - Dra. Mariana Santana</title>
 <meta name="description" content="Visite a página da Médica Veterinária Dra. Mariana Santana, e tire todas as suas dúvidas sobre animais silvestres.">
 <meta name="keywords" content="veterinário animais silvestres, veterinário animais exóticos, veterinário santo andré, veterinário abc, veterinário santos, veterinário baixada santista">
 
@@ -56,22 +56,16 @@
 
 <div id="centro">
 
-<h2>Propostas de parcerias:</h2><br>
+<h2>Área Restrita - Administração</h2>
 
-<?php 
+<ul>
+<li><a href="/index.php/formulario/listar">Contatos recebidos</a></li>
+<li><a href="/index.php/parceiro/admin2">Propostas de Parceria</a></li>
+<li><a href="/index.php/noticia/noticias">Adicionar uma Notícia</a></li>
+</ul>
 
-foreach($parceiro as $parca){
-echo "<ul><li>" . $parca->nome . "</li>";
-echo "<li>" . $parca->sexo . "</li>";
-echo "<li>" . $parca->interesse . "</li>";
-echo "<li>" . $parca->atendimento . "</li>";
-echo "<li>" . $parca->telefone . "</li>";
-echo "<li>" . $parca->url . "</li>";
-echo "<li>" . $parca->email . "</li>";
-echo "<li>" . $parca->comentarios . "</li></ul> </br>";
-}
+<h3><a href="/index.php/outros/logout">Sair</a></h3>
 
-?>
 
 </div>
 
@@ -83,4 +77,3 @@ echo "<li>" . $parca->comentarios . "</li></ul> </br>";
 
 </body>
 </html>
-

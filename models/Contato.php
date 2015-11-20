@@ -1,6 +1,5 @@
 <?php
 
-// Classe do banco de dados
 class Contato{
     
     public $nome, $categoria, $telefone, $email, $comentarios;

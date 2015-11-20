@@ -4,7 +4,7 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Dra. Mariana Santana - Médica Veterinária de Animais Silvestres</title>
+<title>Área Restrita - Dra. Mariana Santana</title>
 <meta name="description" content="Visite a página da Médica Veterinária Dra. Mariana Santana, e tire todas as suas dúvidas sobre animais silvestres.">
 <meta name="keywords" content="veterinário animais silvestres, veterinário animais exóticos, veterinário santo andré, veterinário abc, veterinário santos, veterinário baixada santista">
 
@@ -56,23 +56,15 @@
 
 <div id="centro">
 
-<h2>Propostas de parcerias:</h2><br>
+<h2>Área Restrita - Administração</h2><br>
 
-<?php 
-
-foreach($parceiro as $parca){
-echo "<ul><li>" . $parca->nome . "</li>";
-echo "<li>" . $parca->sexo . "</li>";
-echo "<li>" . $parca->interesse . "</li>";
-echo "<li>" . $parca->atendimento . "</li>";
-echo "<li>" . $parca->telefone . "</li>";
-echo "<li>" . $parca->url . "</li>";
-echo "<li>" . $parca->email . "</li>";
-echo "<li>" . $parca->comentarios . "</li></ul> </br>";
-}
-
-?>
-
+<form action="/index.php/outros/login" method="POST">
+<p>Login: <input type="text" name="login"/></p>
+<p>Senha: <input type="password" name="senha"/></p>
+<br>
+<input type="submit" value="Entrar"/>
+</form>
+<br><br><br><br><br>
 </div>
 
 
@@ -83,4 +75,3 @@ echo "<li>" . $parca->comentarios . "</li></ul> </br>";
 
 </body>
 </html>
-

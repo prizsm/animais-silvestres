@@ -1,6 +1,5 @@
 <?php
 
-// Classe do banco de dados
 class Parceiros{
     
     public $nome, $sexo, $interesse, $atendimento, $telefone, $url, $email, $comentarios;

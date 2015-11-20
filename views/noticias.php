@@ -56,21 +56,14 @@
 
 <div id="centro">
 
-<h2>Propostas de parcerias:</h2><br>
+<h2>Notícias</h2>
 
 <?php 
 
-foreach($parceiro as $parca){
-echo "<ul><li>" . $parca->nome . "</li>";
-echo "<li>" . $parca->sexo . "</li>";
-echo "<li>" . $parca->interesse . "</li>";
-echo "<li>" . $parca->atendimento . "</li>";
-echo "<li>" . $parca->telefone . "</li>";
-echo "<li>" . $parca->url . "</li>";
-echo "<li>" . $parca->email . "</li>";
-echo "<li>" . $parca->comentarios . "</li></ul> </br>";
+foreach($noticia as $not){
+echo "<ul><li><h3>" . $not->titulo . "</h3></li>";
+echo "<li>" . $not->materia . "</li></ul></br>";
 }
-
 ?>
 
 </div>

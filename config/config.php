@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'https://projeto-vet-prizsorensen.c9.io/';
+$config['base_url'] = 'https://projeto-vet-prizsorensen.c9.io/index.php/';
 
 /*
 |--------------------------------------------------------------------------
